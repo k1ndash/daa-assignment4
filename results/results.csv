@@ -1,0 +1,28 @@
+algorithm,scenario,input_size,pattern_length,avg_time_ms,operations,hash_checks,collisions,output
+LCS,random,100,0,0.149911,10000,0,0,64
+Edit Distance,random,100,0,0.207634,10000,0,0,55
+LCS,random,500,0,0.265653,250000,0,0,316
+Edit Distance,random,500,0,1.737991,250000,0,0,262
+LCS,random,1000,0,1.008896,1000000,0,0,645
+Edit Distance,random,1000,0,7.171260,1000000,0,0,532
+Naive,present,10000,24,0.171103,13372,0,0,1
+KMP,present,10000,24,0.166987,12510,0,0,1
+Rabin-Karp,present,10000,24,0.164958,24,9977,0,1
+Naive,absent,10000,24,0.178626,9977,0,0,0
+KMP,absent,10000,24,0.145054,10023,0,0,0
+Rabin-Karp,absent,10000,24,0.228609,0,9977,0,0
+Naive,present,50000,24,0.235540,66636,0,0,1
+KMP,present,50000,24,0.156431,62524,0,0,1
+Rabin-Karp,present,50000,24,0.595128,24,49977,0,1
+Naive,absent,50000,24,0.100595,49977,0,0,0
+KMP,absent,50000,24,0.139688,50023,0,0,0
+Rabin-Karp,absent,50000,24,0.597904,0,49977,0,0
+Naive,present,100000,24,0.563831,133322,0,0,1
+KMP,present,100000,24,0.579751,124545,0,0,1
+Rabin-Karp,present,100000,24,1.183764,24,99977,0,1
+Naive,absent,100000,24,0.201807,99977,0,0,0
+KMP,absent,100000,24,0.250238,100023,0,0,0
+Rabin-Karp,absent,100000,24,1.270857,0,99977,0,0
+Kasai,random,1000,0,0.168018,1990,0,0,1000
+Kasai,random,5000,0,0.154378,9989,0,0,5000
+Kasai,random,10000,0,0.155053,19988,0,0,10000
